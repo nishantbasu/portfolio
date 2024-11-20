@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "target": "ES2022",
+        "module": "ES2022",
+        "lib": [
+            "ES2022",
+            "DOM",
+            "dom.iterable"
+        ],
+        "moduleResolution": "Node",
+        "noEmitOnError": true,
+        "strict": true,
+        "esModuleInterop": false,
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "importHelpers": true,
+        "outDir": "./dist",
+        "sourceMap": true,
+        "inlineSources": true,
+        "strictPropertyInitialization": false,
+        "useDefineForClassFields": false,
+        "strictFunctionTypes": false,
+        "allowJs": true
+    },
+    "include": [
+        "src/**/*.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "src/**/*.spec.ts"
+    ]
+}
