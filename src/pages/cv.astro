@@ -1,0 +1,124 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import TimeLineElement from "../components/cv/TimeLine.astro";
+---
+
+<BaseLayout title="Resume" sideBarActiveItemID="cv">
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Profile</div>
+  </div>
+
+  <div class="mb-10 text-justify">
+Experienced Full Stack Developer specializing in microservices architecture with extensive expertise in building scalable distributed systems using C# and ASP.NET Core. Proven track record in developing modern web applications using micro frontends and web components through Lit Element, TypeScript, and JavaScript. Proficient in designing and implementing complex solutions across multiple technology stacks including Express.js, Django, and Flutter. Strong background in both SQL and NoSQL databases with hands-on experience in MongoDB and PostgreSQL optimization. Currently expanding technical horizons into machine learning while maintaining a focus on delivering high-performance, enterprise-grade applications. Demonstrated ability to architect solutions that improve application scalability and reduce development cycles through effective implementation of CI/CD practices and modern development methodologies.
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Education</div>
+  </div>
+
+  <div class="time-line-container grid gap-4 mb-10">
+    <TimeLineElement
+      title="Master of Science in Computer Science"
+      subtitle="August 2024 to May 2026 at Texas A&M University, College Station (Texas), USA"
+    />
+    <TimeLineElement
+      title="Bachelor of Technology in Information Technology"
+      subtitle="August 2017 to May 2021 at International Institute of Information Technology (IIIT), Bhubaneswar, India"
+    />
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Experience</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="Student Technician"
+      subtitle="From August 2024 at Technology Services, Texas A&M University, College Station (Texas), USA"
+    >
+    <li>
+      Supporting the Technology Services team in maintaining and optimizing the web infrastructure for Texas A&M University, ensuring smooth operations for over 50,000 students and faculty.
+    </li>
+    
+       </TimeLineElement>
+    <TimeLineElement
+      title="Senior Software Engineer"
+      subtitle="From April 2024 to August 2024 at Dell, Hyderabad, India"
+    >
+    <li>
+      Led a team of 6 developers in developing and improving the global checkout system for Dell.com and Premier platform.
+    </li>
+    <li>
+      Acted as a subject Matter Expert (SME) for frontend infrastructure across all cart and checkout teams to drive consistency and streamline order processing workflows.
+    </li>
+
+  </TimeLineElement>
+    <TimeLineElement
+      title="Software Engineer 2"
+      subtitle="From January 2023 to March 2024 at Dell, Hyderabad, India"
+    >
+      <li>Oversaw the development of 50+ micro front ends and microservices, using ASP.NET Core and C# for the backend, and LitElement web-components in TypeScript as frontend, improving scalability and viability of the e-commerce platform.</li>
+      <li>Ensured application stability during high-traffic events like Black Friday sales and door busters, achieving 99.9% up-time and minimizing user disruptions.</li>
+      <li>Developed suffix-based web components to enable lazy loading, reducing time-to-interact by 5%, producing a robust user experience.</li>
+      <li>Created an internal NPM package for dynamic loading of web components, enabling seamless on-load operations and reducing bundle size by 30%.</li>
+      <li>Built a shared logging library with Glass Box Analytics, improving visibility into front-end application performance.</li>
+
+  
+      </TimeLineElement>
+      <TimeLineElement
+      title="Software Engineer 1"
+      subtitle="From August 2021 to December 2023 at Dell, Hyderabad, India"
+    >
+    <li>Contributed to UX and service development for billing and shipping in the checkout process, enhancing system reliability and user experience.</li>
+    <li>Implemented multiple contact-related features, resolving 500+ critical logistics and tax compliance issues, significantly improving operational efficiency.</li>
+    
+
+  
+      </TimeLineElement>
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Accomplishments/Training</div>
+  </div>
+
+  <ul class="list-disc mx-6 mb-10 grid gap-2">
+    <li>
+      <a> GB-MERIT Undergraduate Scholarship (IIIT Bhubaneswar) for top 3 academic achievers in IT Major.</a>
+    </li>
+    <li>
+      <a> Dell Hack-To-Hire Hackathon Winner.</a>
+    </li>
+    <li>
+      <a> Nav Ujjwal Hackathon Finalist for Parchi - Mobile App for paper less Medical Services.</a>
+    </li>
+    <li>
+      <a> ACM Summer School on Algorithmic and Theoretical Aspects of Machine Learning at IIIT Bangalore.</a>
+    </li>
+  </ul>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">Skills</div>
+    <h3 class="font-semibold mb-2 mt-2">Languages</h3>
+  </div>
+
+  <ul class="list-disc md:columns-5 columns-2 mx-6">
+    
+    <li>Typescript</li> <li>JavaScript</li> <li>HTML-CSS</li> <li>C++</li> <li>C#</li> <li>Python</li> <li>PostgreSQL</li> <li>MongoDB</li> <li>Dart/Flutter</li> <li>Ruby/Rails</li> 
+  </ul>
+  <div class="mb-5">
+    <h3 class="font-semibold mb-2 mt-2">Developer Tools</h3>
+  </div>
+
+  <ul class="list-disc md:columns-5 columns-2 mx-6">
+    
+    <li>VS Code</li> <li>PCF</li> <li>GitHub/GitLab</li> <li>CI/CD</li> <li>Android Studio</li> <li>Splunk</li> <li>Dynatrace</li> <li>Postman</li> <li>Fiddler</li> <li>Jira</li> 
+  </ul>
+  <div class="mb-5">
+    <h3 class="font-semibold mb-2 mt-2">Technologies/Frameworks</h3>
+  </div>
+
+  <ul class="list-disc md:columns-5 columns-2 mx-6">
+    
+    <li>LitElement</li> <li>Polymer</li> <li>Web Components</li> <li>ASP.Net Core</li> <li>Django</li> <li>ExpressJS</li> <li>Micro Frontends</li> <li>Micro Services</li> <li>Docker</li> <li>Kubernetes</li> <li>Jest</li> <li>Rollup-Webpack</li> <li>Open WC</li> <li>SinonJS</li> <li>ChaiJS</li> <li>Web-Test-Runner</li> <li>Tailwind</li> 
+  </ul>
+</BaseLayout>

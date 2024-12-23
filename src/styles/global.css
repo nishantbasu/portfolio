@@ -1,0 +1,15 @@
+.time-line-container>div:last-child .education__time>.education__line {
+    display: none;
+}
+
+.time-line-container li {
+    display: flex;
+    margin-bottom: 0.75rem;
+    line-height: 1.5;
+  }
+  
+  .time-line-container li::before {
+    content: "•";
+    margin-right: 1rem;
+    flex-shrink: 0;
+  }

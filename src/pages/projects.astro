@@ -1,0 +1,47 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import HorizontalCard from "../components/HorizontalCard.astro";
+---
+
+<BaseLayout title = "Projects" sideBarActiveItemID="projects">
+  <div>
+    <div class="text-3xl w-full font-bold mb-5">Projects</div>
+  </div>
+
+  <HorizontalCard
+    title="Multi-Modal Lunch Calorie Prediction"
+    img="/post_img.webp"
+    desc="A deep learning system that predicts lunch calorie intake using multiple data modalities including CGM (Continuous Glucose Monitoring) data, demographic information, and food images."
+    url="https://github.com/nishant-basu-tamu3/Multi-Modal-Analysis-For-Lunch-Calorie-Prediction"
+    badge="Machine Learning"
+  />
+  <HorizontalCard
+    title="Logistics Management for CureBay"
+    img="/post_img.webp"
+    desc="Logistics Management for CureBay(A health startup): Independently built and maintained, handling approximately 1,200-1,500 orders daily across 3 states in India using Express.js, MongoDB, and Lit."
+    url="https://docs.google.com/presentation/d/1wkEeKlrECJkx83G_YLRf07Abshu_1K3VO_9oJ14tcyY/edit#slide=id.g2e604391120_0_1"
+    badge="Full-Stack"
+  />
+
+  <HorizontalCard
+    title="LitElement TypeScript SASS Rollup Starter Kit(With NPM Package)"
+    img="/post_img.webp"
+    desc="A comprehensive starter kit for building scalable and maintainable micro-frontends with modern web component ecosystem."
+    url="https://github.com/nishantbasu/lit-ts-sass-rollup-openwc-starter"
+    badge="Lit"
+  />
+  <HorizontalCard
+    title="Bio Waste Management E-Learning App"
+    img="/post_img.webp"
+    desc="Bio Waste Management E-Learning App for AIIMS Bhubaneswar (Hospital), benefiting over 4,000 staff members, using Django Back-End, Flutter Front-End, and Postgres SQL for Database Management."
+    url="https://github.com/nishantbasu/aiims_e_learning"
+    badge="Flutter"
+  />
+  <HorizontalCard
+    title="Lit Web Component Lazy Loader"
+    img="/post_img.webp"
+    desc="A Lit Controller For Lazy Loading Scripts"
+    url="https://github.com/nishantbasu/lit-script-lazy-loader"
+    badge="Typescript"
+  />
+</BaseLayout>
