@@ -3,8 +3,8 @@ title: "Building Web Components with Lit Element Starter Template"
 description: "A complete development environment for creating modern web components using Lit Element, TypeScript, SASS, and Rollup"
 pubDate: "Dec 24 2024"
 heroImage: "/lit-starter.webp"
-badge: "Development"
-tags: ["lit-element", "typescript", "web-components", "sass", "rollup"]
+badge: "Lit Element"
+tags: ["Web Components", "Typescript", "sass", "rollup", "openwc", "web test runner"]
 ---
 
 Web components represent a powerful approach to building modular, reusable UI elements. This starter template combines Lit Element's efficiency with modern development tools to accelerate your web component projects.
