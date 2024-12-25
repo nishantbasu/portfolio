@@ -1,7 +1,7 @@
 ---
-title: "Building Web Components with Lit Element Starter Template"
+title: "Building Web Components with Lit Element(Typescript), SASS & Rollup"
 description: "A complete development environment for creating modern web components using Lit Element, TypeScript, SASS, and Rollup"
-pubDate: "Dec 24 2024"
+pubDate: "Dec 25 2024"
 heroImage: "/lit-starter.webp"
 badge: "Lit Element"
 tags: ["Web Components", "Typescript", "sass", "rollup", "openwc", "web test runner"]
