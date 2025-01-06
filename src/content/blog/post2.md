@@ -294,5 +294,9 @@ For debugging, install the [Redux DevTools Chrome Extension](https://chromewebst
 2. Add middleware for side effects
 3. Implement state selectors
 4. Add error handling
+
+
 Visit the [GitHub repository](https://github.com/nishantbasu/redux-with-lit) for all the code.
+
+
 This integration demonstrates how Redux can provide robust state management for Lit Element web components while maintaining their modular and reusable nature.
